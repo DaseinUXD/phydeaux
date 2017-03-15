@@ -1,0 +1,20 @@
+{
+  "name": "phydeaux-mdl",
+  "version": "1.0.0",
+  "description": "phydeaux loyalty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "loyalty",
+    "material",
+    "material-design=lite"
+  ],
+  "author": "mark w. matthews, phd",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "material-design-lite": "^1.3.0"
+  }
+}
