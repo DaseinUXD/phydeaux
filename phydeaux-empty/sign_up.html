@@ -16,6 +16,7 @@
   See the License for the specific language governing permissions and
   limitations under the License
 
+
 Copyright 2017 Digital ALchemy, LLC. All rights reserved.
 
                                   .::''' .
@@ -30,7 +31,6 @@ Copyright 2017 Digital ALchemy, LLC. All rights reserved.
              |___/                      ..:' ''...                                        |___/
                                   '...:''         ''
 
-    http://www.digital-alchemy.com
     http://www.digital-alchemy.com
 -->
 <html lang="en">
@@ -92,12 +92,12 @@ Copyright 2017 Digital ALchemy, LLC. All rights reserved.
             color: #fff;
             background: url('../assets/demos/dog.png') bottom right 15% no-repeat #02428a;
         }
-                .mdl-button--colored:hover {
+
+        .mdl-button--colored:hover {
             color: #fff !important;
             background: #e01f26 !important;
         }
     </style>
-
 
 </head>
 <body>
@@ -110,7 +110,7 @@ Copyright 2017 Digital ALchemy, LLC. All rights reserved.
                 <div class="mdl-layout__header-row">
 
                     <div class="mdl-layout-spacer"></div>
-                    <h2>Welcome!</h2>
+                    <h2>Sign up for My ViP!</h2>
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
                         <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
                             <i class="material-icons">search</i>
@@ -127,15 +127,13 @@ Copyright 2017 Digital ALchemy, LLC. All rights reserved.
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
-
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="my_profile.html">My Profile</a>
+                                <a class="nav-link" href="my_profile.html">My Profile</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="my_style.html">My Style</a>
@@ -144,10 +142,13 @@ Copyright 2017 Digital ALchemy, LLC. All rights reserved.
                                 <a class="nav-link" href="my_stays.html">My Stays</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="login.html">Login</a>
+                                <a class="nav-link active" href="sign_up.html">Sign Up</a>
+
                             </li>
                         </ul>
                     </div>
+
+
                 </nav>
 
             </header>
@@ -160,27 +161,27 @@ Copyright 2017 Digital ALchemy, LLC. All rights reserved.
             <br />
             <div class="container">
                 <div class="row">
-                    <h1>My Profile</h1>
+                    <h1>Sign Me Up!</h1>
                 </div>
                 <!-- Row 1 -->
                 <div class="row">
                     <form action="#">
                         <!-- First Name-->
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" pattern="" id="FirstName" placeholder="John">
+                            <input class="mdl-textfield__input" type="text" pattern="" id="FirstName">
                             <label class="mdl-textfield__label" for="FirstName">First name*</label>
                             <span class="mdl-textfield__error">Letters and spaces only</span>
                         </div>
                         <!-- Middle Initial-->
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" pattern="" id="MiddleInitial" placeholder="Q">
+                            <input class="mdl-textfield__input" type="text" pattern="" id="MiddleInitial">
                             <label class="mdl-textfield__label" for="MiddleInitial">Middle Initial*</label>
                             <span class="mdl-textfield__error">Letters and spaces only</span>
                         </div>
 
                         <!-- Last Name-->
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" pattern="" id="LastName" placeholder="Guest">
+                            <input class="mdl-textfield__input" type="text" pattern="" id="LastName">
                             <label class="mdl-textfield__label" for="LastName">Last name*</label>
                             <span class="mdl-textfield__error">Letters and spaces only</span>
 
@@ -192,7 +193,7 @@ Copyright 2017 Digital ALchemy, LLC. All rights reserved.
                     <form action="#">
                         <!-- Address 1-->
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" pattern="" id="Address_01" placeholder="1313 Mockingbird Lane">
+                            <input class="mdl-textfield__input" type="text" pattern="" id="Address_01">
                             <label class="mdl-textfield__label" for="FirstName">Address 1*</label>
                             <span class="mdl-textfield__error">Letters and spaces only</span>
                         </div>
@@ -215,13 +216,13 @@ Copyright 2017 Digital ALchemy, LLC. All rights reserved.
 
                         <!-- City-->
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" pattern="" id="City" placeholder="Aberdeen">
+                            <input class="mdl-textfield__input" type="text" pattern="" id="City">
                             <label class="mdl-textfield__label" for="City">City*</label>
                             <span class="mdl-textfield__error">Letters and spaces only</span>
                         </div>
                         <!-- State-->
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" pattern="" id="State" placeholder="SD">
+                            <input class="mdl-textfield__input" type="text" pattern="" id="State">
 
                             <label class="mdl-textfield__label" for="State">State*</label>
                             <span class="mdl-textfield__error">Letters and spaces only</span>
@@ -229,7 +230,7 @@ Copyright 2017 Digital ALchemy, LLC. All rights reserved.
                         </div>
                         <!-- Postal code-->
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" pattern="" id="PostalCode" placeholder="57401">
+                            <input class="mdl-textfield__input" type="text" pattern="" id="PostalCode">
                             <label class="mdl-textfield__label" for="PostalCode">Postal Code*</label>
                             <span class="mdl-textfield__error">Numbers only</span>
 
@@ -238,14 +239,14 @@ Copyright 2017 Digital ALchemy, LLC. All rights reserved.
                     <div class="row">
                         <!-- Birthday -->
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" pattern="" id="Birthday" placeholder="January 1, 1945" />
+                            <input class="mdl-textfield__input" type="text" pattern="" id="Birthday">
                             <label class="mdl-textfield__label" for="Birthday">Birthday</label>
                         </div>
                     </div>
                     <div class="row">
                         <!-- Email Address-->
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="email" pattern="" id="Email" placeholder="john@mailbox.net">
+                            <input class="mdl-textfield__input" type="email" pattern="" id="Email">
                             <label class="mdl-textfield__label" for="Email">Email address*</label>
                             <span class="mdl-textfield__error">Please enter a valid email address.</span>
                         </div>
@@ -253,7 +254,7 @@ Copyright 2017 Digital ALchemy, LLC. All rights reserved.
                     <!-- Telephone Number-->
                     <div class="row">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="tel" pattern="" id="TelephoneNumber" placeholder="1 (212) 555-1212">
+                            <input class="mdl-textfield__input" type="tel" pattern="" id="TelephoneNumber">
                             <label class="mdl-textfield__label" for="TelephoneNumber">Telephone Number</label>
                             <span class="mdl-textfield__error">Please enter your password</span>
                         </div>
@@ -278,7 +279,7 @@ Copyright 2017 Digital ALchemy, LLC. All rights reserved.
                 <br />
                 <!-- Edit Button -->
                 <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
-                    Edit
+                    Sign Up
                 </button>
             </div>
         </main>
